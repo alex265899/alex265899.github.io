@@ -3,7 +3,7 @@
  */
 var username = 'alex265899';
 var password = 'brent16';
-//var loginAtempts = 0;
+//var loginAttempts = 0;
 function loginForm(){
     var  usernameInput = document.forms['Login']['userInput'].value;
     var passwordInput = document.forms['Login']['passInput'].value;
@@ -12,7 +12,7 @@ function loginForm(){
         window.alert("Correct login. Welcome!");
         return true;
     } else {
-        window.alert("Login unsuccessful. Incorrect username or password!")
+        window.alert("Login unsuccessful. Incorrect username or password!");
         return false;
     }
 
