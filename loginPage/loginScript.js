@@ -8,11 +8,11 @@ function loginForm(){
     var  usernameInput = document.forms['Login']['userInput'].value;
     var passwordInput = document.forms['Login']['passInput'].value;
 
-    if ((usernameInput == username) || (passwordInput == password)){
-        alert("Correct login. Welcome!");
+    if ((usernameInput == username) && (passwordInput == password)){
+        window.alert("Correct login. Welcome!");
         return true;
     } else {
-        alert("Login unsuccessful. You're username or password is incorrect!");
+        window.alert("Login unsuccessful. Incorrect username or password!")
         return false;
     }
 
