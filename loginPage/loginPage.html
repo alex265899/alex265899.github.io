@@ -4,8 +4,20 @@
     <meta charset="UTF-8">
     <title>Login</title>
     <link rel="stylesheet" href="loginPageCSS.css">
+    <script type="javascript" src="loginScript.js"></script>
 </head>
 <body>
-
+<h1>Welcome</h1>
+<div>
+    <form action="loginScript.js" name="Login" id="Login" method="post" onsubmit="loginForm()">
+        <fieldset>
+            <legend>Login</legend>
+            Username: <input type="text" id="userInput" name="userInput" title="userInput"><br>
+            Password: <input type="password" name="passInput" id="passInput" title="passInput"><br><br>
+            <input type="submit" id="submission" name="submission" value="Submit">
+        </fieldset>
+    </form>
+    <p id="loginValidation"></p>
+</div>
 </body>
 </html>
