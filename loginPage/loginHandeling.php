@@ -5,17 +5,11 @@
     $userInput = htmlspecialchars($_POST['userInput']);
     $passInput = htmlspecialchars($_POST['passInput']);
     
-    $nextPage = "<script>window.location('https://inventory-website-alex265899.c9users.io/mainPage/mainPage.html')</script>";
-    $previousPage = "<script>window.location('https://inventory-website-alex265899.c9users.io/loginPage/loginPage.html')</script>";
     
     if (($username == $userInput) && ($password == $passInput)){
-        print 'Login successful. Welcome! ';
-        print 'Redirecting...';
-        echo $nextPage;
+        echo "<script type='text/javascript'>window.location = 'https://inventory-website-alex265899.c9users.io/mainPage/mainPage.html'</script>";
     } else {
-        print 'Login unsuccessful. Incorrect username or password';
-        
-        echo $previousPage;
+        echo "";
     }
     
 ?>
