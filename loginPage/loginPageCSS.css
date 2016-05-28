@@ -1,5 +1,50 @@
+body {
+    word-wrap: normal;
+    background-color: #eaece5;
+}
+
+
+
+
+
 h1{
     font-family: "Calibri Light", serif;
     font-size: large;
     color: blue;
 }
+
+
+
+
+.userbox:hover {
+    background-color: #b2c2bf;
+    transition-duration: 0.4s;
+    text-align: center
+}
+.userbox{
+    background-color: #f0efef;
+}
+
+
+
+
+.passbox{
+    background-color: #f0efef;
+    transition-duration: 0.4s;
+    text-align: center;
+}
+.passbox:hover{
+    background-color: #b2c2bf;
+}
+
+
+
+
+
+submitButton:hover{
+    background-color: transparent;
+    border-color: #3b3a30;
+    color: #3b3a30;
+    
+}
+
