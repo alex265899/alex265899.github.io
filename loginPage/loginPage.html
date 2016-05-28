@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <link rel="stylesheet" href="loginPageCSS.css">
+    <link rel="stylesheet" href="loginPageCSS.css" type="text/css" />
 </head>
 <body>
-<h1>Welcome</h1>
-<div>
-    <form action="loginScript.js" name="Login" id="Login" method="post" onsubmit="loginForm()">
+    <form action="loginHandeling.php" method="POST">
         <fieldset>
             <legend>Login</legend>
-            Username: <input type="text" id="userInput" name="userInput" title="userInput" oninput="loginForm()"><br>
-            Password: <input type="password" name="passInput" id="passInput" title="passInput" oninput="loginForm()"><br><br>
-            <input type="submit" id="submission" name="submission" value="Submit" onclick="loginForm()">
+            Username: <input type="text" name="userInput" /><br>
+            Password: <input type="password" name="passInput" /><br><br>
+            
+            <input type="submit" value="Submit" />
         </fieldset>
     </form>
-    <p id="loginValidation"></p>
-</div>
 </body>
 </html>
