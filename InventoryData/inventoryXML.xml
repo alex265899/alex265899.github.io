@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<student-data xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<ID>ID</ID>
+		<Name>Name</Name>
+		<Type>Type</Type>
+		<Description>Description</Description>
+		<Value>Value</Value>
+		<Notes>Notes</Notes>
+		<Date_Added>Date_Added</Date_Added>
+		<Lent_To>Lent_To</Lent_To>
+	</record>
+</student-data>
