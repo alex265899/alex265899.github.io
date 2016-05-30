@@ -13,6 +13,9 @@ body{
 .placement_paragraph{
     color: crimson;
     text-align: center;
-    font-family: Calibri;
+    font-family: SansSerif;
 
+}
+.inventory{
+    width: inherit;
 }
