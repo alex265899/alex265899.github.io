@@ -1,13 +1,13 @@
 body{
-    word-wrap: normal;
-    
-}
+     word-wrap: normal;
+
+ }
 
 .welcome {
     color: #034f84;
     text-align: center;
     font-family: serif;
-    
+
 }
 
 .placement_paragraph{
@@ -18,4 +18,10 @@ body{
 }
 .inventory{
     width: inherit;
+}
+.redirectLink{
+    text-align: center;
+    text-underline-color: blue;
+    color: blue;
+    text-decoration: underline;
 }

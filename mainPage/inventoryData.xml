@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="inventory.xsl" ?>
+<inventory>
+  <item>
+    <id>1</id>
+    <name>ASUS Chromebook</name>
+    <type>Electronic</type>
+    <description>ASUS Chromebook laptop received on birthday</description>
+    <value>$160.00</value>
+    <date>5/30/2016</date>
+  </item>
+</inventory>
