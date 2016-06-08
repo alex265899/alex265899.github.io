@@ -3,7 +3,7 @@
     <xsl:template match="/">
         <html>
             <head>
-                <link rel="stylesheet" type="text/css" href="inventory.css" />
+                <link rel="stylesheet" type="text/css" href="inventory.css"/>
             </head>
             <body>
                 <h1>Inventory</h1>
@@ -20,12 +20,24 @@
                     </tr>
                     <xsl:for-each select="inventory/item">
                         <tr>
-                            <td><xsl:value-of select="id"/></td>
-                            <td><xsl:value-of select="name"/></td>
-                            <td><xsl:value-of select="type"/></td>
-                            <td><xsl:value-of select="description"/></td>
-                            <td><xsl:value-of select="value"/></td>
-                            <td><xsl:value-of select="date"/></td>
+                            <td>
+                                <xsl:value-of select="id"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="name"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="type"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="description"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="value"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="date"/>
+                            </td>
                         </tr>
                     </xsl:for-each>
                 </table>
