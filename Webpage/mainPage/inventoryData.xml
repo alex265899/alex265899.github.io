@@ -1,12 +1,52 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="inventory.xsl" ?>
 <inventory>
-  <item>
-    <id>1</id>
-    <name>ASUS Chromebook</name>
-    <type>Electronic</type>
-    <description>ASUS Chromebook laptop received on birthday</description>
-    <value>$160.00</value>
-    <date>5/30/2016</date>
-  </item>
+    <pattern>
+        <name>Ballet Circle</name>
+        <image>../../EmbroideryPatternScans/BalletCircle-5x7.jpg</image>
+        <category>Ballerina</category>
+        <size>127.6x126.8 mm</size>
+        <stitches>13190</stitches>
+        <colors>18</colors>
+    </pattern>
+    <pattern>
+        <name>Ballerina Princess</name>
+        <image>../../EmbroideryPatternScans/BallerinaPrincess.jpg</image>
+        <category>Ballerina</category>
+        <size>110.7x177.7 mm</size>
+        <stitches>12709</stitches>
+        <colors>22</colors>
+    </pattern>
+    <pattern>
+        <name>New Ballet Shoes</name>
+        <image>../../EmbroideryPatternScans/NewBalletShoes.jpg</image>
+        <category>Ballerina</category>
+        <size>129.1x153.5 mm</size>
+        <stitches>12615</stitches>
+        <colors>8</colors>
+    </pattern>
+    <pattern>
+        <name>Big Pig</name>
+        <image>../../EmbroideryPatternScans/BigPig.jpg</image>
+        <category>Animals</category>
+        <size>84.3x128.4 mm</size>
+        <stitches>4189</stitches>
+        <colors>7</colors>
+    </pattern>
+    <pattern>
+        <name>Vintage Fox</name>
+        <image>../../EmbroideryPatternScans/VintageFox.jpg</image>
+        <category>Animals</category>
+        <size>125.6x140.5 mm</size>
+        <stitches>7348</stitches>
+        <colors>33</colors>
+    </pattern>
+    <pattern>
+        <name>Cute Pig</name>
+        <image>../../EmbroideryPatternScans/Pig.jpg</image>
+        <category>Animals</category>
+        <size>129x143.9 mm</size>
+        <stitches>11665</stitches>
+        <colors>16</colors>
+    </pattern>
 </inventory>

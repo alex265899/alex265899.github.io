@@ -11,32 +11,35 @@
 
                 <table border="1">
                     <tr bgcolor="#228b22">
-                        <th>ID</th>
-                        <th>Item Name</th>
-                        <th>Type</th>
-                        <th>Description</th>
-                        <th>Value</th>
-                        <th>Date Added</th>
+                        <th>Name</th>
+                        <th>Image</th>
+                        <th>Category</th>
+                        <th>Size</th>
+                        <th>Stitches</th>
+                        <th>Colors</th>
                     </tr>
-                    <xsl:for-each select="inventory/item">
+                    <xsl:for-each select="inventory/pattern">
+                        <xsl:variable name="imageFile" select="image" />
                         <tr>
-                            <td>
-                                <xsl:value-of select="id"/>
-                            </td>
                             <td>
                                 <xsl:value-of select="name"/>
                             </td>
                             <td>
-                                <xsl:value-of select="type"/>
+                                <a href="{$imageFile}">
+                                    <img src="{$imageFile}" alt="{$imageFile}" width="425" height="550"/>
+                                </a>
                             </td>
                             <td>
-                                <xsl:value-of select="description"/>
+                                <xsl:value-of select="category"/>
                             </td>
                             <td>
-                                <xsl:value-of select="value"/>
+                                <xsl:value-of select="size"/>
                             </td>
                             <td>
-                                <xsl:value-of select="date"/>
+                                <xsl:value-of select="stitches"/>
+                            </td>
+                            <td>
+                                <xsl:value-of select="colors"/>
                             </td>
                         </tr>
                     </xsl:for-each>
