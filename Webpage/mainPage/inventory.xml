@@ -49,4 +49,12 @@
         <stitches>11665</stitches>
         <colors>16</colors>
     </pattern>
+    <pattern>
+        <name>Cow</name>
+        <image>../../EmbroideryPatternScans/cow.jpg</image>
+        <category>Animals</category>
+        <size>129.0x125.8 mm</size>
+        <stitches>12786</stitches>
+        <colors>25</colors>
+    </pattern>
 </inventory>
