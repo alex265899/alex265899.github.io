@@ -57,4 +57,37 @@
         <stitches>12786</stitches>
         <colors>25</colors>
     </pattern>
+    <pattern>
+        <name>Tiffany Sleep Mask</name>
+        <image>../../EmbroideryPatternScans/TiffanySleepMask.jpg</image>
+        <category>Beauty/Girly</category>
+        <size>99.5x152.6 mm</size>
+        <stitches>3386</stitches>
+        <colors>5</colors>
+    </pattern>
+    <pattern>
+        <name>Nail Polish</name>
+        <image>../../EmbroideryPatternScans/NailPolish.jpg</image>
+        <category>Beauty/Girly</category>
+        <size>95.3x171.8 mm</size>
+        <stitches>3435</stitches>
+        <colors>7</colors>
+    </pattern>
+    <pattern>
+        <name>Glass Slipper On Pillow</name>
+        <image>../../EmbroideryPatternScans/GlassSlipperOnPillow.jpg</image>
+        <category>Beauty/Girly</category>
+        <size>126.2x148.6 mm</size>
+        <stitches>10350</stitches>
+        <colors>10</colors>
+    </pattern>
+    <pattern>
+        <name>Paris Purse</name>
+        <image>../../EmbroideryPatternScans/ParisPurse.jpg</image>
+        <category>Beauty/Girly</category>
+        <size>122.0x126.4 mm</size>
+        <stitches>6884</stitches>
+        <colors>12</colors>
+    </pattern>
+
 </inventory>
