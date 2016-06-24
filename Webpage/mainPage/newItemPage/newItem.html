@@ -1,20 +1,19 @@
+<!Doctype html>
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Add New Item</title>
+    <title>Add Item</title>
 </head>
 <body>
-
-<h1>Add a new item</h1>
-<form action="newItem.php" method="post">
-    <fieldset>
-        Pattern Name:<br>
-        <input type="text" value="itemName">
-        <br>
-        Image File:
-        <input type="file" value="fileImage">
-    </fieldset>
+<form action="newItem.php" method="get">
+    Pattern Name:       <input type="text" name="patternName" ><br>
+    Category: <input type="text" name="patternCategory" /><br>
+    Size: <input type="text" name="patternSize" ><br>
+    Stitches: <input type="text"name="patternStitches" ><br>
+    Colors: <input type="text"name="patternColors"><br>
+    Image File Name (include file ending like .jpg): <input type="text" name="fileName"><br>
+    <input type="submit" name="Submit">
 </form>
 
+</body>
 </html>
