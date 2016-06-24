@@ -57,4 +57,60 @@
         <stitches>12786</stitches>
         <colors>25</colors>
     </pattern>
-</inventory>
+
+    <pattern>
+        <name>Bow Monogram</name>
+        <image>../../EmbroideryPatternScans/BowMonogram.jpg)</image>
+        <category>Beauty/Girly</category>
+        <size>5.74x4.93 in</size>
+        <stitches>7285</stitches>
+        <colors>7</colors>
+    </pattern>
+        <pattern>
+            <name>Full Cup</name>
+            <image>../../EmbroideryPatternScans/FullCup.jpg)</image>
+            <category>Beauty/Girly</category>
+            <size>92.6x100.2 mm</size>
+            <stitches>10812</stitches>
+            <colors>6</colors>
+        </pattern>
+        <pattern>
+            <name>Lingerie Frame</name>
+            <image>../../EmbroideryPatternScans/LingerieFrame.jpg)</image>
+            <category>Beauty/Girly</category>
+            <size>126.0x179.0 mm</size>
+            <stitches>16191</stitches>
+            <colors>13</colors>
+        </pattern>
+        <pattern>
+            <name>Cardinal</name>
+            <image>../../EmbroideryPatternScans/Cardinal.jpg)</image>
+            <category>Birds/Roosters</category>
+            <size>123.2x123.2 mm</size>
+            <stitches>32404</stitches>
+            <colors>18</colors>
+        </pattern>
+        <pattern>
+            <name>Beverly Peacock</name>
+            <image>../../EmbroideryPatternScans/BeverlyPeacock.jpg)</image>
+            <category>Birds/Roosters</category>
+            <size>127.3x176.2 mm</size>
+            <stitches>13843</stitches>
+            <colors>43</colors>
+        </pattern>
+        <pattern>
+            <name>Applique Rooster Fancy</name>
+            <image>../../EmbroideryPatternScans/AppliqueRoosterFancy.jpg)</image>
+            <category>Birds/Roosters</category>
+            <size>119.8x126.2 mm</size>
+            <stitches>5713</stitches>
+            <colors>13</colors>
+        </pattern>
+        <pattern>
+            <name>Vintage Hummingbird</name>
+            <image>../../EmbroideryPatternScans/VintageHummingbird.jpg)</image>
+            <category>Birds/Roosters</category>
+            <size>3.07x3.45 in</size>
+            <stitches>4155</stitches>
+            <colors>9</colors>
+        </pattern>
