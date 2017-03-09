@@ -1,27 +1,41 @@
 html{
-    margin: 25px;
-    background-color: bisque;
+    margin: 1px;
+    /*background-color: bisque;*/
 }
-div.intro{
-    background-color: aquamarine;
-    padding: 25px;
+
+
+
+div.title{
+    background-image: url("pictures/MaterialDesign_LightBlue.jpg");
+    background-size: cover;
+    height: 500px;
+    padding: 5px;
+
 }
 h1.title{
     font-family: Consolas, sans-serif;
-
+    color: white;
 }
-h2.credits{
-    font-family: Arial, sans-serif;
+h2.title{
+    font-family: Consolas, sans-serif;
+    color: white;
+    vertical-align: bottom;
+    text-align: left;
 }
 
 div.nav{
-    background-color: aqua;
     padding: 25px;
 }
+
+
+
+
+
 li{
     list-style-type: none;
 }
 a.nav{
+    text-align: center;
     transition-duration: 0.2s;
     font-family: Arial, sans-serif;
     color: dimgrey;
