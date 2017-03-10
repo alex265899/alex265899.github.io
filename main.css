@@ -58,7 +58,7 @@ a.nav:hover{
 
 
 div.thesis{
-	height: 768px;
+	margin: 768px;
 	
 	overflow: auto;
 	background-image: url("pictures/MaterialDesignDark.png");
