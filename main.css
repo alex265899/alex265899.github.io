@@ -47,3 +47,26 @@ a.nav:hover{
     font-family: sans-serif;
     font-size: x-large;
 }
+
+
+
+
+
+
+
+
+
+
+div.thesis{
+	overflow: auto;
+	background-image: url("pictures/MaterialDesignDark.png");
+	
+}
+h1.thesis{
+	color: white;
+	font-family: sans-serif;
+}
+h3.thesis{
+	color: white;
+	font-family: sans-serif;
+}
