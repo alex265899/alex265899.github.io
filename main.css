@@ -82,3 +82,17 @@ h3.thesis{
 	color: white;
 	font-family: sans-serif;
 }
+
+body.definition{
+	background-image: url("pictures/materialBlackRed.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+h1.definition{
+	color: white;
+	font-family: sans-serif;
+}
+h3.definition{
+	color: white;
+	font-family: sans-serif;
+}
