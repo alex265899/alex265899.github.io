@@ -3,10 +3,14 @@ html{
     /*background-color: bisque;*/
 }
 
-
+body.main{
+	background-image: url("pictures/MaterialDesign_LightBlue.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 
 div.title{
-    background-image: url("pictures/MaterialDesign_LightBlue.jpg");
+    /*background-image: url("pictures/MaterialDesign_LightBlue.jpg");*/
     background-size: cover;
     height: 500px;
     padding: 5px;
@@ -56,6 +60,8 @@ a.nav:hover{
 
 body.thesis{
 	background-image: url("pictures/MaterialDesignDark.png");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	padding: 2px;
 	overflow: auto;
 }
