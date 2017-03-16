@@ -54,14 +54,18 @@ a.nav:hover{
 
 
 
-
+body.thesis{
+	background-image: url("pictures/MaterialDesignDark.png");
+	padding: 2px;
+	overflow: auto;
+}
 
 
 div.thesis{
 	margin: 768px;
 	
 	overflow: auto;
-	background-image: url("pictures/MaterialDesignDark.png");
+	
 	
 }
 h1.thesis{
