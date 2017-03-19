@@ -1,4 +1,4 @@
-html{
+<img src="pictures/MaterialDarkRed.png" alt="" /><img src="pictures/MaterialDarkRed.png" alt="" />html{
     margin: 1px;
     /*background-color: bisque;*/
 }
@@ -106,16 +106,16 @@ h3.abstract1{
 	font-family: sans-serif;
 }
 
-body.abstract3{
+body.abstract2{
 	background-image: url("pictures/MaterialDarkRed.png");
 	padding: 2px;
 	overflow: auto;
 }
-h1.abstract3{
+h1.abstract2{
 	color: white;
 	font-family: sans-serif;
 }
-h3.abstract3{
+h3.abstract2{
 	color: white;
 	font-family: sans-serif;
 }
