@@ -3,11 +3,13 @@ html{
     /*background-color: bisque;*/
 }
 
-
+body.main{
+	background-image: url("pictures/MaterialDesign_LightBlue.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
 
 div.title{
-    background-image: url("pictures/MaterialDesign_LightBlue.jpg");
-    background-size: cover;
     height: 500px;
     padding: 5px;
 
