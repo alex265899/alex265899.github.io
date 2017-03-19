@@ -3,14 +3,10 @@ html{
     /*background-color: bisque;*/
 }
 
-body.main{
-	background-image: url("pictures/MaterialDesign_LightBlue.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
+
 
 div.title{
-    /*background-image: url("pictures/MaterialDesign_LightBlue.jpg");*/
+    background-image: url("pictures/MaterialDesign_LightBlue.jpg");
     background-size: cover;
     height: 500px;
     padding: 5px;
@@ -43,13 +39,13 @@ a.nav{
     transition-duration: 0.2s;
     font-family: Arial, sans-serif;
     color: dimgrey;
-    font-size: larger;
+    font-size: x-large;
 }
 a.nav:hover{
     transition-duration: 0.2s;
     color: black;
     font-family: sans-serif;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 
@@ -60,8 +56,6 @@ a.nav:hover{
 
 body.thesis{
 	background-image: url("pictures/MaterialDesignDark.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
 	padding: 2px;
 	overflow: auto;
 }
@@ -79,20 +73,6 @@ h1.thesis{
 	font-family: sans-serif;
 }
 h3.thesis{
-	color: white;
-	font-family: sans-serif;
-}
-
-body.definition{
-	background-image: url("pictures/materialBlackRed.jpg");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-}
-h1.definition{
-	color: white;
-	font-family: sans-serif;
-}
-h3.definition{
 	color: white;
 	font-family: sans-serif;
 }
