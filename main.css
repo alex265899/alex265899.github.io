@@ -76,3 +76,18 @@ h3.thesis{
 	color: white;
 	font-family: sans-serif;
 }
+
+
+body.abstract1{
+	background-image: url("pictures/materialRed");
+	padding: 2px;
+	overflow: auto;
+}
+h1.abstract1{
+	color: white;
+	font-family: sans-serif;
+}
+h3.abstract1{
+	color: white;
+	font-family: sans-serif;
+}
